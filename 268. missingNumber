@@ -1,0 +1,29 @@
+#include <iostream> 
+using namespace std;
+
+int missingNumber2(int array[], int size)
+{
+    int totalSum = size * (size + 1) / 2;
+    int arraySum = 0;
+    
+    for (int i = 0; i < size; i++)
+    {
+        arraySum += array[i];
+    }
+    
+    return totalSum - arraySum;
+}
+
+int main()
+{
+    int array[] = {9, 6, 4, 2, 3, 5, 7, 0, 1};
+    int size = sizeof(array) / sizeof(array[0]);
+
+    int result = missingNumber(array, size);
+    cout << "Missing number: " << result << endl;
+    
+    result = missingNumber2(array, size);
+    cout << "Missing number: " << result << endl;
+
+    return 0;
+}
