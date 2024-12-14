@@ -30,7 +30,7 @@ Contributions are welcome.
 Feel free to fork this repository and submit a pull request.
 
 ## **Progress**
-- **Number of Problems Solved:** 29 (and counting…)
+- **Number of Problems Solved:** 75 (and counting)
 - **Language:** C++ 100%
 
 ---
